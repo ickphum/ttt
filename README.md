@@ -1,3 +1,26 @@
+# Notes on Tic-Tac-Toe exercise
+
+## Code Structure
+
+I only created two files for the exercise, Game.jsx and Game.css. I didn't think the project needed any more 
+complexity than that.
+
+## Libraries
+
+I used create-react-app to initialise the repository, including the git setup. I didn't use any extra React libraries; 
+I considered at one stage using react-tooltip which I've used in the past but I decided I wanted all messages
+to remain on screen.
+
+## Design Decisions
+
+There are only 3 component classes in the solution, `Game`, `GameBoard` and `GameCell`. 
+
+`Game` contains all the logic regarding making moves and game state, `GameBoard` and `GameCell` serve 
+only to extract the rendering code for the board itself. I did this to make changes to the layout more convenient, e.g.
+a change from using a table to flex layout for the board.
+
+In hindsight, the layout is somewhat old-fashioned; I put more time into the mechanics than the presentation.
+
 # Create React App notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
