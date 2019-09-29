@@ -1,0 +1,14 @@
+.GameCell {
+	width: 90px;
+	height: 90px;
+	background: blue;
+	font-size: 60px;
+    cursor: pointer;
+}
+
+.GameButton {
+    margin: 10px;
+    height: 30px;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, #eee 0%, #aaa 81%, #ccc 100%);
+}
